@@ -22,12 +22,16 @@ private RaycastHit _ratHit;
     {
         if(Input.GetMouseButtonDown(0))
 		{
-
+			//1.탄이 만들어진다
+			//2.탄이 힘을 준다. 그 결과 탄이 날아간다.
+			
+			GameObject bullet = Instantiate(_bullet,transform.position,transform.rotation);
+			bullet.GetComponent<Rigidbody>().AddForce(Vector3.forward*100);
 		}
     }
 
     private void Aiming()
     {
-        throw new NotImplementedException();
+        
     }
 }
