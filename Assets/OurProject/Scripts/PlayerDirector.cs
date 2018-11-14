@@ -39,7 +39,17 @@ List<GameObject> ObjectList = new List<GameObject>();
 	// Update is called once per frame
 	void Update () {
 		ColorChange();
+		PlayerDead();
 	}
+
+    private void PlayerDead()
+    {
+        if(HP == 0)
+		{
+			Debug.Log("Player is Dead!");
+			HP = 10;
+		}
+    }
 
     private void ColorChange()
     {
