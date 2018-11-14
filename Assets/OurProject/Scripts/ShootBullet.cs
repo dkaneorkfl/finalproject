@@ -32,9 +32,11 @@ internal bool _changeColor;
 				transform.rotation);
 				bullet.transform.tag = $"{transform.tag}"+".Bullet";
 				Debug.Log(bullet.transform.tag);
+				bullet.transform.name = transform.name;
 			bullet.GetComponent<Rigidbody>().AddRelativeForce(Vector3.up*_speed);
 			bullet.GetComponent<Renderer>().material.color =
 			GetComponent<Renderer>().material.color;
+			Destroy(bullet,3);
 		}
     }
 }

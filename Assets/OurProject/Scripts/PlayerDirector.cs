@@ -10,15 +10,30 @@ GameObject weapon;
 GameObject Shield;
 Color c1;
 Color c2;
+public float HP;
+public float MaxHP;
+public float Score;
+List<GameObject> ObjectList = new List<GameObject>();
 	// Use this for initialization
 	void Start () {
 		t1 = GameObject.Find("Team1");
 		t2 = GameObject.Find("Team2");
+
 		c1 = t1.GetComponent<Renderer>().material.color;
 		c2 = t2.GetComponent<Renderer>().material.color;
-		Debug.Log($"{c1},{c2}");
+
 		weapon = GameObject.Find("Cylinder");
 		Shield = GameObject.Find("Cube");
+
+		ObjectList.Add(gameObject);
+		ObjectList.Add(weapon);
+		ObjectList.Add(Shield);
+
+		ChangeObjcet(ObjectList, "Team1", c1);
+
+		MaxHP = 10;
+		HP = MaxHP;
+		Score = 0;
 	}
 	
 	// Update is called once per frame
@@ -33,24 +48,22 @@ Color c2;
 			if(transform.tag == "Team1")
 			{
 				Debug.Log("Color Change2");
-				ChangeObjcet(gameObject, "Team2", c2);
-				ChangeObjcet(weapon, "Team2", c2);
-				ChangeObjcet(Shield, "Team2", c2);
+				ChangeObjcet(ObjectList, "Team2", c2);
 			}
 			else if(transform.tag == "Team2")
-			{
-				Debug.Log("Color Change1");
-				ChangeObjcet(gameObject, "Team1", c1);
-				ChangeObjcet(weapon, "Team1", c1);
-				ChangeObjcet(Shield, "Team1", c1);
-				Debug.Log(c1);
-			}
-    	}
+            {
+				ChangeObjcet(ObjectList, "Team1", c1);
+            }
+        }
 	}
 
-    private void ChangeObjcet(GameObject a, string b, Color c)
+    private void ChangeObjcet(List<GameObject> a, string b, Color c)
     {
-        a.transform.tag = b;
-		a.GetComponent<Renderer>().material.color = c;
+		foreach (GameObject item in a)
+		{
+		item.transform.tag = b;
+		item.GetComponent<Renderer>().material.color = c;	
+		}
+        
     }
 }

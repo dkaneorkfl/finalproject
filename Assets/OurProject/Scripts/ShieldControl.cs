@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class ShieldControl : MonoBehaviour {
 
+string forTagCompare;
+[SerializeField]GameObject Sheild;
 	// Use this for initialization
 	void Start () {
-		
+		forTagCompare = $"{Sheild.transform.tag}"+".Bullet";
 	}
 	
 	// Update is called once per frame
@@ -28,15 +30,15 @@ public class ShieldControl : MonoBehaviour {
         }
     }
 
-	void OnCollisionEnter(Collision other)
+	void OnTriggerEnter(Collider other)
 	{
-		if(other.transform.tag.Equals(transform.tag))
+		if(forTagCompare == transform.tag && other.gameObject == Sheild)
 		{
-			Debug.Log("Absolve!");
+			Debug.Log("Absolve by Shield!");
 		}
-		else if(other.transform.tag != transform.tag)
+		else if(forTagCompare != transform.tag && other.gameObject == Sheild)
 		{
-			Debug.Log("Damaged!");
+			Debug.Log("Pierced by Bullet!");
 		}
 	}
 }
