@@ -34,5 +34,6 @@ private float _cooltime;
 			bullet.GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward*_speed);
 			bullet.GetComponent<Renderer>().material.color =
 			GetComponent<Renderer>().material.color;
+			Destroy(bullet,3);
     }
 }

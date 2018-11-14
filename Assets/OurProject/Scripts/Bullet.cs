@@ -14,18 +14,13 @@ void OnTriggerEnter(Collider other)
 	{
 		if(ftnc[0] != transform.tag)
 		{
-			Debug.Log("Hit to Body!");
 			Destroy(gameObject);
 		}
-		if(ftnc[0] == transform.tag+".Bullet")
+		if(ftnc[0] == transform.tag)
 		{
-			Debug.Log("Absolve!");
-			Destroy(gameObject);}
+			Destroy(gameObject);
+			}
 		}
-		else
-		{
-			Debug.Log("Bullet Hit!");
-		}
-		Destroy(gameObject,3);
+	
 	}
 }

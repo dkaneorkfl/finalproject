@@ -16,7 +16,6 @@ Color c2;
 		t2 = GameObject.Find("Team2");
 		c1 = t1.GetComponent<Renderer>().material.color;
 		c2 = t2.GetComponent<Renderer>().material.color;
-		Debug.Log($"{c1},{c2}");
 		weapon = GameObject.Find("Cylinder");
 		Shield = GameObject.Find("Cube");
 	}
