@@ -14,7 +14,7 @@ public class LoadingScript02_guide : MonoBehaviour {
  
     void Start()
     {
-        StartCoroutine(StartLoad("MenuScene_02"));
+        StartCoroutine(StartLoad("PlayingScene"));
     }
  
     void Update()

@@ -9,8 +9,14 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/GamePlay.unity
+    path: 
     guid: bef896a0e755ffa43a6c62a7d2c55812
+  - enabled: 1
+    path: Assets/OurProject/Scenes/GameOver.unity
+    guid: 327c4368e9f2ba246b4a7252d913c46a
+  - enabled: 1
+    path: Assets/OurProject/Scenes/PlayingScene.unity
+    guid: ce228293c62f0d34887ecb2c824e83a0
   - enabled: 1
     path: Assets/Scenes/LoadingScene01_Intro.unity
     guid: 2b88640859e2d674aad849b634b41d90
