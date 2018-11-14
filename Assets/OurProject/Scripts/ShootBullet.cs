@@ -14,7 +14,7 @@ private RaycastHit _ratHit;
 	
 	// Update is called once per frame
 	void Update () {
-		Aiming();
+
 		Shoot();
 	}
 
@@ -25,13 +25,9 @@ private RaycastHit _ratHit;
 			//1.탄이 만들어진다
 			//2.탄이 힘을 준다. 그 결과 탄이 날아간다.
 			
-			GameObject bullet = Instantiate(_bullet,transform.position,transform.rotation);
-			bullet.GetComponent<Rigidbody>().AddForce(Vector3.forward*100);
-		}
-    }
+			GameObject bullet = Instantiate(_bullet,transform.position,new Quaternion());
+			bullet.GetComponent<Rigidbody>().AddForce(Vector3.forward*300);
 
-    private void Aiming()
-    {
-        
+		}
     }
 }
