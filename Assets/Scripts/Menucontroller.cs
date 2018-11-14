@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class Menucontroller : MonoBehaviourEx {
 
+	
 	public void Btn_Start(){
 		Debug.Log("시작버튼");
-		SceneManager.LoadScene("");
+		SceneManager.LoadScene("LoadingScene02_Guide");
 	}
+
 
 	public void Btn_Ranking(){
 		Debug.Log("RankingScene_03");
@@ -19,5 +23,12 @@ public class Menucontroller : MonoBehaviourEx {
 		Debug.Log("tomenu");
 		SceneManager.LoadScene("MenuScene_02");
 	}
+
+	public void Btn_Quit(){
+		Debug.Log("종료함");
+		Application.Quit();
+	}
+
+	
 
 }
