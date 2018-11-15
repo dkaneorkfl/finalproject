@@ -4,33 +4,49 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnermyShootBullet : MonoBehaviour {
-public GameObject _bullet;
+
+public List<GameObject> bulletList;
+GameObject _bullet;
 public GameObject firePosition;
-private float _cooltime;
-internal float HP;
 [SerializeField]private float _speed;
 	// Use this for initialization
-	void Start () {
-		_cooltime = 0.2f;
-		HP = 10;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		_cooltime -= Time.deltaTime;
-		if(_cooltime<0)
-		{
-			_cooltime = 0.7f;
-			Fire();
-		}
-		if(HP == 0)
-		{
-			Debug.Log("I'm Dead.");
-			HP = 10;
-		}
-	}
+// private enum bulletType
+// {
+// 	Normal,
+// 	Guided,
+// 	Explose,
+// 	Spread,
+// }
+// private bulletType b;
+public int num;
 
-    private void Fire()
+
+void Start()
+{
+	SetBullet();
+}
+
+    private void SetBullet()
+    {_bullet = bulletList[num];
+        // switch(b)
+		// {
+		// 	case bulletType.Normal :
+		// 	_bullet = bulletList[0];
+		// 	break;
+		// 	case bulletType.Guided:
+		// 	default:
+		// 	_bullet = bulletList[1];
+		// 	break;
+		// 	case bulletType.Explose:
+		// 	_bullet = bulletList[2];
+		// 	break;
+		// 	case bulletType.Spread:
+		// 	_bullet = bulletList[3];
+		// 	break;
+		// }
+    }
+
+    public void Fire()
     {
         GameObject bullet 
 			= Instantiate(
@@ -39,9 +55,7 @@ internal float HP;
 				transform.rotation);
 				bullet.transform.tag = $"{transform.tag}"+".Bullet";
 				bullet.transform.name = transform.name;
-			bullet.GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward*_speed);
 			bullet.GetComponent<Renderer>().material.color =
 			GetComponent<Renderer>().material.color;
-			Destroy(bullet,3);
     }
 }

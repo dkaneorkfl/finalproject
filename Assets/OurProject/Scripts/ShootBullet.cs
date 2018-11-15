@@ -6,13 +6,11 @@ using UnityEngine;
 public class ShootBullet : MonoBehaviour {
 
 GameObject firePosition;
-Camera cam;
 [SerializeField]private float _speed;
 [SerializeField]private GameObject _bullet;
 internal bool _changeColor;
 	// Use this for initialization
 	void Start () {
-		cam = Camera.main;
 		firePosition = GameObject.Find("Sphere");
 	}
 	

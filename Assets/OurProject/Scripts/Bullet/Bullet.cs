@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour {
-GameObject player;
+
+public GameObject player;
 string forTagNameCompare;
 string[] ftnc;
 
-void Start()
+protected virtual void Start()
 {
 	player = GameObject.Find("Capsule")	;
+	Destroy(gameObject,3);
 }
 
-void OnTriggerEnter(Collider other)
+protected virtual void OnTriggerEnter(Collider other)
 {
 	forTagNameCompare = other.transform.tag;
 	ftnc = new string[2];
@@ -25,8 +27,8 @@ void OnTriggerEnter(Collider other)
 			Debug.Log("Hit to Body!");
 			if(other.GetComponent<PlayerDirector>())
 			other.GetComponent<PlayerDirector>().HP--;
-			else if(other.GetComponent<EnermyShootBullet>())
-			other.GetComponent<EnermyShootBullet>().HP--;
+			else if(other.GetComponent<EnermyDirector>())
+			other.GetComponent<EnermyDirector>().HP--;
 			else
 			return;
 			Destroy(gameObject);
