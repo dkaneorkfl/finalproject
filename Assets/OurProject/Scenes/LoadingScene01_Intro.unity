@@ -275,7 +275,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 564861362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36f000d7ac3f4894abd1ff02b09a52a6, type: 3}
+  m_Script: {fileID: 11500000, guid: 77c1046ebca77b240829ef62685be39c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 1600899198}
@@ -664,7 +664,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1458415106}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bfd1ef48b01f9e4fbc29266134ba264, type: 3}
+  m_Script: {fileID: 11500000, guid: 1008e5b8d1b6c134383b8de3bae15f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fadeOutUIImage: {fileID: 1458415109}
