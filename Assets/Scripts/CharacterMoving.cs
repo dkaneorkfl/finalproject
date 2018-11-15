@@ -40,7 +40,7 @@ public class CharacterMoving : MonoBehaviour {
 
 	
 	void RotCtrl(){
-		Cursor.lockState=CursorLockMode.Locked;
+		// Cursor.lockState=CursorLockMode.Locked;
 		
 		float rotX = Input.GetAxis("Mouse Y")*rtSpeed;
 		Debug.Log("좌우");
