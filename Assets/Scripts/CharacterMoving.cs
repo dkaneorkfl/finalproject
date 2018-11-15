@@ -10,9 +10,10 @@ public class CharacterMoving : MonoBehaviour {
 	float rtSpeed = 5;
 	float mSpeed = 20;
 	
-	Quaternion rVal;
 	void Start () {
-		rVal = Sight.transform.rotation;
+
+		Cursor.lockState = CursorLockMode.Locked;
+				Cursor.visible=false;
 	}
 	void Update () {
 		
@@ -43,9 +44,9 @@ public class CharacterMoving : MonoBehaviour {
 		// Cursor.lockState=CursorLockMode.Locked;
 		
 		float rotX = Input.GetAxis("Mouse Y")*rtSpeed;
-		Debug.Log("좌우");
+		
 		float rotY = Input.GetAxis("Mouse X")*rtSpeed;
-		Debug.Log("위아래");
+		
 
 		//this.transform.localRotation*=Quaternion.Euler(0,rotY,0);
 		

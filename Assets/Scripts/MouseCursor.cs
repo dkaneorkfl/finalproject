@@ -16,6 +16,7 @@ public class MouseCursor : MonoBehaviour {
     public void Start(){		
         //코루틴을 사용합니다. TargetCursor()함수를 호출합니다.
         StartCoroutine ("MyCursor");
+        // _Fcamera.camera.GetComponent<view>
     }
     //MyCursor()라는 이름의 코루틴이 시작됩니다.
     IEnumerator MyCursor() {

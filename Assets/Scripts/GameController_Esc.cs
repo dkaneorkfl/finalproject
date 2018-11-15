@@ -8,11 +8,11 @@ public class GameController_Esc : MonoBehaviour {
 	public GameObject Pausemenu;
 	private void Start()
 	{
-		
+		 
 	}
-	 void Update () {	
+	
+	void Update () {	
 		
-
 		 if(Input.GetKeyDown(KeyCode.Escape)){
 			
 			if(Pausemenu.gameObject.activeInHierarchy==false){
@@ -20,19 +20,16 @@ public class GameController_Esc : MonoBehaviour {
 				Debug.Log("매뉴 팝업 창이 나옴");
 				Cursor.lockState = CursorLockMode.Confined;
 				Cursor.visible=true;
-				
 			}
 			else if(Pausemenu.gameObject.activeInHierarchy==true){
 				Pausemenu.gameObject.SetActive(false);
 				
 				Cursor.lockState = CursorLockMode.Locked;
+				Cursor.visible=false;
 				Debug.Log("매뉴 팝업 창이 사라짐");	
 			}
 		}
-		// if(Pausemenu.gameObject.activeInHierarchy==true&&Input.GetKeyDown(KeyCode.Escape)){
-		// 	Debug.Log("마우스 다시 센터");
-		// 	Cursor.lockState = CursorLockMode.Locked;
-		// 	Cursor.visible=true;
-		// }
+		
+		
 	}
 }
