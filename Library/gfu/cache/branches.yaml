@@ -1,0 +1,362 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2018-11-15T20:18:10.587+09:00
+  initializedAtString: 2018-11-15T20:12:21.284+09:00
+  localBranches:
+  - name: "1114\uC2E0\uD6A8\uCCA0"
+    tracking: "origin/1114\uC2E0\uD6A8\uCCA0"
+  - name: "1115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C417\uC2DC"
+    tracking: "origin/1115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C417\uC2DC"
+  - name: "20181112\uC815\uCC2C\uD654\uC2DC\uC791\uBE0C\uB80C\uCE58"
+    tracking: "origin/20181112\uC815\uCC2C\uD654\uC2DC\uC791\uBE0C\uB80C\uCE58"
+  - name: "20181114\uC815\uCC2C\uD654_\uBC31\uC5C5\uD6C4\uBCD1\uD569\uC6A9"
+    tracking: "origin/20181114\uC815\uCC2C\uD654_\uBC31\uC5C5\uD6C4\uBCD1\uD569\uC6A9"
+  - name: "20181114\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4"
+    tracking: "origin/20181114\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4"
+  - name: "20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC608\uC815"
+    tracking: "origin/20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC608\uC815"
+  - name: "20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC6A9222222"
+    tracking: "origin/20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC6A9222222"
+  - name: "20181115\uC815\uCC2C\uD654_\uAE40\uB3D9\uC131\uBCD1\uD5691"
+    tracking: "origin/20181115\uC815\uCC2C\uD654_\uAE40\uB3D9\uC131\uBCD1\uD5691"
+  - name: "20181115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4\uC0C8\uBE0C\uB80C\uCE58"
+    tracking: "origin/20181115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4\uC0C8\uBE0C\uB80C\uCE58"
+  - name: "20181115\uC815\uCC2C\uD654_\uC0C8\uBE0C\uB9BF\uC9C017\uC2DC"
+    tracking: "origin/20181115\uC815\uCC2C\uD654_\uC0C8\uBE0C\uB9BF\uC9C017\uC2DC"
+  - name: "20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0_\uC815\uC0C1\uBCD1\uD569\uBE0C\uB79C\uCE58"
+    tracking: "origin/20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0_\uC815\uC0C1\uBCD1\uD569\uBE0C\uB79C\uCE58"
+  - name: "20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD5693"
+    tracking: "origin/20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD5693"
+  - name: master
+    tracking: origin/master
+  - name: "\uACF5\uBE0C\uB79C\uCE58"
+    tracking: "origin/\uACF5\uBE0C\uB79C\uCE58"
+  - name: "\uD504\uB85C\uC81D\uD2B8\uC2DC\uC791"
+    tracking: "origin/\uD504\uB85C\uC81D\uD2B8\uC2DC\uC791"
+  remoteBranches:
+  - name: origin/1112ysk
+    tracking: '[None]'
+  - name: "origin/1112\uAE40\uB3D9\uC131"
+    tracking: '[None]'
+  - name: "origin/1113\uAE40\uB3D9\uC131"
+    tracking: '[None]'
+  - name: "origin/1113\uC2E0\uD6A8\uCCA0"
+    tracking: '[None]'
+  - name: "origin/1114\uAE40\uB3D9\uC131"
+    tracking: '[None]'
+  - name: "origin/1114\uC2E0\uD6A8\uCCA0"
+    tracking: '[None]'
+  - name: "origin/1114\uC2E0\uD6A8\uCCA03"
+    tracking: '[None]'
+  - name: "origin/1114\uC2E0\uD6A8\uCCA04"
+    tracking: '[None]'
+  - name: "origin/1115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C417\uC2DC"
+    tracking: '[None]'
+  - name: "origin/20181112\uC724\uC218\uAD6D"
+    tracking: '[None]'
+  - name: "origin/20181112\uC815\uCC2C\uD654\uC2DC\uC791\uBE0C\uB80C\uCE58"
+    tracking: '[None]'
+  - name: "origin/20181114\uC815\uCC2C\uD654_\uBC31\uC5C5\uD6C4\uBCD1\uD569\uC6A9"
+    tracking: '[None]'
+  - name: "origin/20181114\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4"
+    tracking: '[None]'
+  - name: "origin/20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC608\uC815"
+    tracking: '[None]'
+  - name: "origin/20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC6A9222222"
+    tracking: '[None]'
+  - name: "origin/20181115\uC2E0\uD6A8\uCCA0_\uBCD1\uD569\uD6C4\uC0C8\uBE0C\uB79C\uCE58"
+    tracking: '[None]'
+  - name: "origin/20181115\uC815\uCC2C\uD654_\uAE40\uB3D9\uC131\uBCD1\uD5691"
+    tracking: '[None]'
+  - name: "origin/20181115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4\uC0C8\uBE0C\uB80C\uCE58"
+    tracking: '[None]'
+  - name: "origin/20181115\uC815\uCC2C\uD654_\uC0C8\uBE0C\uB9BF\uC9C017\uC2DC"
+    tracking: '[None]'
+  - name: "origin/20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0_\uC815\uC0C1\uBCD1\uD569\uBE0C\uB79C\uCE58"
+    tracking: '[None]'
+  - name: "origin/20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD5693"
+    tracking: '[None]'
+  - name: origin/HEAD
+    tracking: '[None]'
+  - name: "origin/test\uBCD1\uD569\uC6A9_baseon\uC2E0\uD6A8\uCCA04"
+    tracking: '[None]'
+  - name: "origin/\uACF5\uBE0C\uB79C\uCE58"
+    tracking: '[None]'
+  - name: "origin/\uD504\uB85C\uC81D\uD2B8\uC2DC\uC791"
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/dkaneorkfl/finalproject.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - "1114\uC2E0\uD6A8\uCCA0"
+    - "1115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C417\uC2DC"
+    - "20181112\uC815\uCC2C\uD654\uC2DC\uC791\uBE0C\uB80C\uCE58"
+    - "20181114\uC815\uCC2C\uD654_\uBC31\uC5C5\uD6C4\uBCD1\uD569\uC6A9"
+    - "20181114\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4"
+    - "20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC608\uC815"
+    - "20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC6A9222222"
+    - "20181115\uC815\uCC2C\uD654_\uAE40\uB3D9\uC131\uBCD1\uD5691"
+    - "20181115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4\uC0C8\uBE0C\uB80C\uCE58"
+    - "20181115\uC815\uCC2C\uD654_\uC0C8\uBE0C\uB9BF\uC9C017\uC2DC"
+    - "20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0_\uC815\uC0C1\uBCD1\uD569\uBE0C\uB79C\uCE58"
+    - "20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD5693"
+    - master
+    - "\uACF5\uBE0C\uB79C\uCE58"
+    - "\uD504\uB85C\uC81D\uD2B8\uC2DC\uC791"
+    values:
+    - name: "1114\uC2E0\uD6A8\uCCA0"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "1114\uC2E0\uD6A8\uCCA0"
+    - name: "1115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C417\uC2DC"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "1115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C417\uC2DC"
+    - name: "20181112\uC815\uCC2C\uD654\uC2DC\uC791\uBE0C\uB80C\uCE58"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "20181112\uC815\uCC2C\uD654\uC2DC\uC791\uBE0C\uB80C\uCE58"
+    - name: "20181114\uC815\uCC2C\uD654_\uBC31\uC5C5\uD6C4\uBCD1\uD569\uC6A9"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "20181114\uC815\uCC2C\uD654_\uBC31\uC5C5\uD6C4\uBCD1\uD569\uC6A9"
+    - name: "20181114\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "20181114\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4"
+    - name: "20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC608\uC815"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC608\uC815"
+    - name: "20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC6A9222222"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC6A9222222"
+    - name: "20181115\uC815\uCC2C\uD654_\uAE40\uB3D9\uC131\uBCD1\uD5691"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "20181115\uC815\uCC2C\uD654_\uAE40\uB3D9\uC131\uBCD1\uD5691"
+    - name: "20181115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4\uC0C8\uBE0C\uB80C\uCE58"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "20181115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4\uC0C8\uBE0C\uB80C\uCE58"
+    - name: "20181115\uC815\uCC2C\uD654_\uC0C8\uBE0C\uB9BF\uC9C017\uC2DC"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "20181115\uC815\uCC2C\uD654_\uC0C8\uBE0C\uB9BF\uC9C017\uC2DC"
+    - name: "20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0_\uC815\uC0C1\uBCD1\uD569\uBE0C\uB79C\uCE58"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0_\uC815\uC0C1\uBCD1\uD569\uBE0C\uB79C\uCE58"
+    - name: "20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD5693"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD5693"
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: master
+    - name: "\uACF5\uBE0C\uB79C\uCE58"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "\uACF5\uBE0C\uB79C\uCE58"
+    - name: "\uD504\uB85C\uC81D\uD2B8\uC2DC\uC791"
+      remote:
+        name: origin
+        url: https://github.com/dkaneorkfl/finalproject.git
+      trackingBranch: "\uD504\uB85C\uC81D\uD2B8\uC2DC\uC791"
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - 1112ysk
+      - "1112\uAE40\uB3D9\uC131"
+      - "1113\uAE40\uB3D9\uC131"
+      - "1113\uC2E0\uD6A8\uCCA0"
+      - "1114\uAE40\uB3D9\uC131"
+      - "1114\uC2E0\uD6A8\uCCA0"
+      - "1114\uC2E0\uD6A8\uCCA03"
+      - "1114\uC2E0\uD6A8\uCCA04"
+      - "1115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C417\uC2DC"
+      - "20181112\uC724\uC218\uAD6D"
+      - "20181112\uC815\uCC2C\uD654\uC2DC\uC791\uBE0C\uB80C\uCE58"
+      - "20181114\uC815\uCC2C\uD654_\uBC31\uC5C5\uD6C4\uBCD1\uD569\uC6A9"
+      - "20181114\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4"
+      - "20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC608\uC815"
+      - "20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC6A9222222"
+      - "20181115\uC2E0\uD6A8\uCCA0_\uBCD1\uD569\uD6C4\uC0C8\uBE0C\uB79C\uCE58"
+      - "20181115\uC815\uCC2C\uD654_\uAE40\uB3D9\uC131\uBCD1\uD5691"
+      - "20181115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4\uC0C8\uBE0C\uB80C\uCE58"
+      - "20181115\uC815\uCC2C\uD654_\uC0C8\uBE0C\uB9BF\uC9C017\uC2DC"
+      - "20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0_\uC815\uC0C1\uBCD1\uD569\uBE0C\uB79C\uCE58"
+      - "20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD5693"
+      - HEAD
+      - "test\uBCD1\uD569\uC6A9_baseon\uC2E0\uD6A8\uCCA04"
+      - "\uACF5\uBE0C\uB79C\uCE58"
+      - "\uD504\uB85C\uC81D\uD2B8\uC2DC\uC791"
+    subKeyValues:
+    - Values:
+      - name: 1112ysk
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "1112\uAE40\uB3D9\uC131"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "1113\uAE40\uB3D9\uC131"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "1113\uC2E0\uD6A8\uCCA0"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "1114\uAE40\uB3D9\uC131"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "1114\uC2E0\uD6A8\uCCA0"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "1114\uC2E0\uD6A8\uCCA03"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "1114\uC2E0\uD6A8\uCCA04"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "1115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C417\uC2DC"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "20181112\uC724\uC218\uAD6D"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "20181112\uC815\uCC2C\uD654\uC2DC\uC791\uBE0C\uB80C\uCE58"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "20181114\uC815\uCC2C\uD654_\uBC31\uC5C5\uD6C4\uBCD1\uD569\uC6A9"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "20181114\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC608\uC815"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "20181114\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD569\uC6A9222222"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "20181115\uC2E0\uD6A8\uCCA0_\uBCD1\uD569\uD6C4\uC0C8\uBE0C\uB79C\uCE58"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "20181115\uC815\uCC2C\uD654_\uAE40\uB3D9\uC131\uBCD1\uD5691"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "20181115\uC815\uCC2C\uD654_\uBCD1\uD569\uD6C4\uC0C8\uBE0C\uB80C\uCE58"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "20181115\uC815\uCC2C\uD654_\uC0C8\uBE0C\uB9BF\uC9C017\uC2DC"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0_\uC815\uC0C1\uBCD1\uD569\uBE0C\uB79C\uCE58"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "20181115\uC815\uCC2C\uD654_\uC2E0\uD6A8\uCCA0\uBCD1\uD5693"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "test\uBCD1\uD569\uC6A9_baseon\uC2E0\uD6A8\uCCA04"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "\uACF5\uBE0C\uB79C\uCE58"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+      - name: "\uD504\uB85C\uC81D\uD2B8\uC2DC\uC791"
+        remote:
+          name: origin
+          url: https://github.com/dkaneorkfl/finalproject.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/dkaneorkfl/finalproject.git

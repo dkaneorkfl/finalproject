@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2018-11-15T20:18:10.709+09:00
+  initializedAtString: 2018-11-15T20:12:38.822+09:00
+  log:
+  - commitID: 85b2c257d54261d50cefe7a5c1c347515b38e6c5
+    mergeA: 
+    mergeB: 
+    authorName: dkaneorkfl
+    authorEmail: 41276468+dkaneorkfl@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Initial commit
+    description: Initial commit
+    timeString: 2018-11-09T16:47:32.000+09:00
+    commitTimeString: 2018-11-09T16:47:32.000+09:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\CSharp_pro\FinalProjectWithUnity2\finalproject\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: README.md
+      fullPath: C:\CSharp_pro\FinalProjectWithUnity2\finalproject\README.md
+      projectPath: README.md
+      originalPath: 
+      status: 4
+      staged: 0
