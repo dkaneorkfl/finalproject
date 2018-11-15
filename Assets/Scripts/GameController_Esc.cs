@@ -25,7 +25,7 @@ public class GameController_Esc : MonoBehaviour {
 			else if(Pausemenu.gameObject.activeInHierarchy==true){
 				Pausemenu.gameObject.SetActive(false);
 				
-				Cursor.lockState = CursorLockMode.None;
+				Cursor.lockState = CursorLockMode.Locked;
 				Debug.Log("매뉴 팝업 창이 사라짐");	
 			}
 		}

@@ -10,10 +10,12 @@ public class CharacterMoving : MonoBehaviour {
 	float rtSpeed = 5;
 	float mSpeed = 20;
 	
+	Quaternion rVal;
 	void Start () {
-		
+		rVal = Sight.transform.rotation;
 	}
 	void Update () {
+		
 		MoveCtrl();
 		RotCtrl();
 	}
@@ -35,11 +37,24 @@ public class CharacterMoving : MonoBehaviour {
 			transform.Translate(Vector3.left*Time.deltaTime*mSpeed);
 		}
 	}	
-	void RotCtrl(){
-		float rotX = Input.GetAxis("Mouse Y")*rtSpeed;
-		float rotY = Input.GetAxis("Mouse X")*rtSpeed;
 
-		this.transform.localRotation*=Quaternion.Euler(0,rotY,0);
-		Sight.transform.localRotation*=Quaternion.Euler(-rotX,0,0);
+	
+	void RotCtrl(){
+		Cursor.lockState=CursorLockMode.Locked;
+		
+		float rotX = Input.GetAxis("Mouse Y")*rtSpeed;
+		Debug.Log("좌우");
+		float rotY = Input.GetAxis("Mouse X")*rtSpeed;
+		Debug.Log("위아래");
+
+		//this.transform.localRotation*=Quaternion.Euler(0,rotY,0);
+		
+		Sight.transform.rotation*=Quaternion.Euler(0,rotY,0);
+		Sight.transform.rotation*=Quaternion.Euler(-rotX,0,0);
+		
+
+		Sight.transform.eulerAngles = new Vector3(Sight.transform.eulerAngles.x,Sight.transform.eulerAngles.y,0);
+		
+		
 	}
 }
