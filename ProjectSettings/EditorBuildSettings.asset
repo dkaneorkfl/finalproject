@@ -9,21 +9,42 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/GamePlay.unity
-    guid: bef896a0e755ffa43a6c62a7d2c55812
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/OurProject/Scenes/PlayingScene.unity
+    guid: ce228293c62f0d34887ecb2c824e83a0
+  - enabled: 1
+    path: Assets/OurProject/Scenes/ResultScene.unity
+    guid: c83572403630181499f281892343fdb8
   - enabled: 1
     path: Assets/Scenes/LoadingScene01_Intro.unity
-    guid: 2b88640859e2d674aad849b634b41d90
-  - enabled: 1
-    path: Assets/Scenes/MenuScene_02.unity
-    guid: 755edd540d5e53745a93c5492f3ffc6f
-  - enabled: 1
-    path: Assets/Scenes/Topscene_01.unity
-    guid: 95e1a22f7e2ccc34ab35d9bdc7e88e65
+    guid: 83177f63c029ae64f97054803fa5a809
   - enabled: 1
     path: Assets/Scenes/LoadingScene02_Guide.unity
-    guid: 657df1a8715729e4a9650a59ec01ccf5
+    guid: 7f87b45b1682bfd4fb7fa36c7b482fc0
+  - enabled: 1
+    path: Assets/Scenes/MenuScene_02.unity
+    guid: 61ce8fc338aca7b4caf1941e5914a2d5
   - enabled: 1
     path: Assets/Scenes/RankingScene_03.unity
-    guid: a2e1ab44660a05346870fff1b6a8b097
+    guid: b77bf95033e0768478c95a0696b69054
+  - enabled: 1
+    path: Assets/Scenes/Topscene_01.unity
+    guid: afa0bee494ceab743bc2a591e640e27f
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
