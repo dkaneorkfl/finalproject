@@ -2,10 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnermyDirector : MonoBehaviour {
+public class EnemyDirector : CharacterData {
 private float _cooltime;
-internal float HP;
+
+public int HP;
+// private enum bulletType
+// {
+// 	Normal,
+// 	Guided,
+// 	Curve,
+// 	Lock,
+// }
+
 	void Start () {
+		GetColor();
 		_cooltime = 0.2f;
 		HP = 10;
 	}
@@ -16,12 +26,12 @@ internal float HP;
 		if(_cooltime<0)
 		{
 			_cooltime = 0.7f;
-			gameObject.GetComponent<EnermyShootBullet>().Fire();
+			gameObject.GetComponent<EnemyShootBullet>().Fire();
 		}
 		if(HP == 0)
 		{
 			Debug.Log("I'm Dead.");
-			HP = 10;
+			Destroy(gameObject);
 		}
 	}
 }

@@ -7,8 +7,11 @@ public class Bullet : MonoBehaviour {
 public GameObject player;
 string forTagNameCompare;
 string[] ftnc;
+public float _bulletSpeed;
+public float curveRate;
+    internal float bulletSpeed;
 
-protected virtual void Start()
+    protected virtual void Start()
 {
 	player = GameObject.Find("Capsule")	;
 	Destroy(gameObject,3);
@@ -27,8 +30,8 @@ protected virtual void OnTriggerEnter(Collider other)
 			Debug.Log("Hit to Body!");
 			if(other.GetComponent<PlayerDirector>())
 			other.GetComponent<PlayerDirector>().HP--;
-			else if(other.GetComponent<EnermyDirector>())
-			other.GetComponent<EnermyDirector>().HP--;
+			else if(other.GetComponent<EnemyDirector>())
+			other.GetComponent<EnemyDirector>().HP--;
 			else
 			return;
 			Destroy(gameObject);

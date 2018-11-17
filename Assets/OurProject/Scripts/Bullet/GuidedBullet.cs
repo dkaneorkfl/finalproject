@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GuidedBullet : Bullet {
-	GameObject target;
-	// Use this for initialization
-	protected override void Start()
-	{
-		target = GameObject.Find("Capsule");
-		Destroy(gameObject,3);
-	}
+	
+	float notGuideTime = 1;
 	// Update is called once per frame
-	void Update () {
-		transform.LookAt(target.transform);
+	void Update () 
+	{
+		notGuideTime -= Time.deltaTime;
+		Debug.Log(notGuideTime);
+		if(notGuideTime < 0)
+		{
+		transform.LookAt(player.transform);
 		GetComponent<Rigidbody>().velocity = Vector3.zero;
-		GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward*100);
+		GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward*bulletSpeed);
+		}
 	}
 }

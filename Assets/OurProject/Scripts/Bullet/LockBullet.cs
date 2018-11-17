@@ -5,13 +5,12 @@ using UnityEngine;
 public class LockBullet : Bullet {
 
 	GameObject target;
-	RaycastHit hit;
 	// Use this for initialization
 	protected override void Start()
 	{
 		target = GameObject.Find("Capsule");
-		Destroy(gameObject,3);
 		transform.LookAt(target.transform);
-		GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward*100);
+		GetComponent<Rigidbody>().velocity = Vector3.zero;
+		GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward*bulletSpeed);
 	}
 }

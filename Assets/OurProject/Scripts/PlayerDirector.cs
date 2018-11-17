@@ -3,25 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerDirector : MonoBehaviour {
-GameObject t1;
-GameObject t2;
+public class PlayerDirector : CharacterData {
 GameObject weapon;
 GameObject Shield;
-Color c1;
-Color c2;
-public float HP;
-public float MaxHP;
-public float Score;
+[SerializeField]internal float Score;
+[SerializeField]internal float MaxHP;
+[SerializeField]internal float HP;
 List<GameObject> ObjectList = new List<GameObject>();
 	// Use this for initialization
-	void Start () {
-		t1 = GameObject.Find("Team1");
-		t2 = GameObject.Find("Team2");
-
-		c1 = t1.GetComponent<Renderer>().material.color;
-		c2 = t2.GetComponent<Renderer>().material.color;
-
+	public virtual void Start () {
+		Score = 0;
 		weapon = GameObject.Find("Cylinder");
 		Shield = GameObject.Find("Cube");
 
@@ -29,7 +20,7 @@ List<GameObject> ObjectList = new List<GameObject>();
 		ObjectList.Add(weapon);
 		ObjectList.Add(Shield);
 
-		ChangeObjcet(ObjectList, "Team1", c1);
+		ChangeObjcet(ObjectList, Team1, team1Color);
 
 		MaxHP = 10;
 		HP = MaxHP;
@@ -37,7 +28,7 @@ List<GameObject> ObjectList = new List<GameObject>();
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	public virtual void Update () {
 		ColorChange();
 		PlayerDead();
 	}
@@ -48,6 +39,7 @@ List<GameObject> ObjectList = new List<GameObject>();
 		{
 			Debug.Log("Player is Dead!");
 			HP = 10;
+			PlayerPrefs.SetFloat("ScoreSender",Score);
 		}
     }
 
@@ -55,14 +47,13 @@ List<GameObject> ObjectList = new List<GameObject>();
     {
         if(Input.GetMouseButtonDown(2))
 		{
-			if(transform.tag == "Team1")
+			if(transform.tag == Team1)
 			{
-				Debug.Log("Color Change2");
-				ChangeObjcet(ObjectList, "Team2", c2);
+				ChangeObjcet(ObjectList, Team2, team1Color);
 			}
-			else if(transform.tag == "Team2")
+			else if(transform.tag == Team2)
             {
-				ChangeObjcet(ObjectList, "Team1", c1);
+				ChangeObjcet(ObjectList, Team1, team2Color);
             }
         }
 	}
@@ -72,7 +63,7 @@ List<GameObject> ObjectList = new List<GameObject>();
 		foreach (GameObject item in a)
 		{
 		item.transform.tag = b;
-		item.GetComponent<Renderer>().material.color = c;	
+		item.GetComponent<Renderer>().material.color = c;
 		}
         
     }

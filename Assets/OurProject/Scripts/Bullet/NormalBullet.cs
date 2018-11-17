@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class NormalBullet : Bullet {
 
-	// Use this for initialization
-	protected override void Start () 
-	{
-		Destroy(gameObject,3);
-		GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward*100);
-	}
+	// 일반 탄 분류를 위한 더미데이터임
+
 }
